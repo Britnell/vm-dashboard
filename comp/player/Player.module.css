@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  /* max-width: 600px; */
+  /* margin-inline: auto; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 260px));
+  gap: 10px;
+}
+
+.tilecontainer {
+  padding: 8px;
+  border-radius: 8px;
+  word-wrap: break-word;
+  background-color: #d4f5ff;
+}
+
+.tilecontainer:hover {
+  /* border: 2px solid blue; */
+  /* background-color: #d4f5ff; */
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.playing {
+  border: 2px solid blue;
+}
